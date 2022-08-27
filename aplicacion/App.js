@@ -5,6 +5,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text></Text>
+      <TextInput
+        placeholder="colocar tu email"
+      />
       <StatusBar style="auto" />
     </View>
   );
