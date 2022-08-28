@@ -4,9 +4,6 @@ import { StyleSheet, Text, View, TextInput, Dimensions, Image } from 'react-nati
 export default function App() {
   return(
     <View style={styles.container}>
-      <Image style= {styles.ImagenSuperior}
-    source={require('../public/Imagenes/Component 1.png')}
-    />
       <Text style={styles.titulo}> NASHE</Text>
       <TextInput style={styles.TextInput}
         placeholder="Email"
