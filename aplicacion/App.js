@@ -1,9 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, Dimensions, Image } from 'react-native';
+import img from '../public/Imagenes/img';
+import img1 from '../public/Imagenes/img';
 
 export default function App() {
   return(
     <View style={styles.container}>
+     <div style={styles.ImagenSuperior}>
+      <img src={img.img1}/>
+     </div>
       <Text style={styles.titulo}> NASHE</Text>
       <TextInput style={styles.TextInput}
         placeholder="Email"
