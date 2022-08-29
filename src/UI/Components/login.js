@@ -9,7 +9,8 @@ export default function login() {
         <TextInput style={styles.TextInput}
           placeholder="Contraseña"
         />
-        
+        <Image style={styles.Image}
+        />
       </View>
     );
   }
