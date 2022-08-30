@@ -1,4 +1,4 @@
-export default function login(){
+export function login(){
     return(
       <View style={styles.container}>
         <Text style={styles.titulo}> NASHE</Text>
