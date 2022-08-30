@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { Login } from './UI/Components/Login';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-     <h1>Aplicacion:</h1>
-    </div>
+     <login></login>
+          <StatusBar style="auto" />
+          </div>
   );
 }
 
