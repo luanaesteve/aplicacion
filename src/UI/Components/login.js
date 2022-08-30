@@ -1,5 +1,4 @@
-
-export default function login() {
+export default function login(){
     return(
       <View style={styles.container}>
         <Text style={styles.titulo}> NASHE</Text>
@@ -33,12 +32,6 @@ export default function login() {
       width: '80%',
       height: 50,
       marginTop: 20,
-      borderRadius: 20,
-    },
-    ImagenSuperior: {
-    position: 'absolute',
-    top: 50,
-  
-    }
+      borderRadius: 20,}
   });
   
